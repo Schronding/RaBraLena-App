@@ -110,6 +110,44 @@ void Finanzas::Impuestos(float &DineroTotal) {
     cout << "Substranting taxes, you have $ " << DineroTotal << endl;
 }
 
+//Esta función realiza conversión de moneda
+int Finanzas::exchange(float &DineroTotal){
+    float dolar = 21.27;
+    float euro = 24.07;
+    float conversiondolares = 0;
+    float conversioneuros = 0;
+    int opcion = 0;
+
+    cout << "Do you want to convert your money into foreign currency? (Y for yes, N for no)" << endl;
+    cin >> decision;
+
+    if (decision == 'N')
+        return (EXIT_SUCCESS);
+
+    if (decision == 'Y');
+
+    cout << "What currency would you like to use?\n(1) dollars\n(2) euros" << endl;
+    cin >> opcion;
+
+
+    if (opcion == 1)
+    {
+        conversiondolares = DineroTotal / dolar;
+        printf ("Now, you have: %.2f dollars",conversiondolares);
+
+    }
+
+    else
+    {
+        conversioneuros = DineroTotal / euro;
+        printf ("Now, you have: %.2f euros",conversioneuros);
+    }
+
+    getchar();
+
+    return (EXIT_SUCCESS);
+}
+
 
 // Esta función vincula las demás funciones del programa
 int Finanzas::Interconectividad(float &DineroTotal){

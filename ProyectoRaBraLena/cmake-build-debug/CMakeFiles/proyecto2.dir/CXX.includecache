@@ -6,19 +6,21 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/ProyectoRaBraLena/Advice.h
-
-C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/ProyectoRaBraLena/CalcuRaBraLena.cpp
-iostream
--
+C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/ProyectoRaBraLena/Finanzas.cpp
 Finanzas.h
 C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/ProyectoRaBraLena/Finanzas.h
-Advice.h
-C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/ProyectoRaBraLena/Advice.h
+Savest.h
+C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/ProyectoRaBraLena/Savest.h
+iostream
+-
 
 C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/ProyectoRaBraLena/Finanzas.h
 string
 -
 vector
+-
+
+C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/ProyectoRaBraLena/Savest.h
+string
 -
 

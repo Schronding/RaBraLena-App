@@ -13,6 +13,7 @@ Finanzas Llenar;
 Finanzas Invest;
 Finanzas Save;
 Finanzas Tax;
+Finanzas Currency;
 Finanzas Inter;
 Advice Expenses;
 Advice Leisure;
@@ -23,15 +24,16 @@ Advice aInter;
 
 int main() {
     cout << "Welcome to the RaBraLena finances app" << endl;
-    cout << "Please enter the total money you have" << endl;
+    cout << "Please, enter the total amount of money you have in Mexican pesos" << endl;
     cin >> DineroTotal;
     Tax.Impuestos(DineroTotal);
+    Currency.exchange(DineroTotal);
     expenses = DineroTotal * 0.5;
     entertainment = DineroTotal * 0.3;
     invest = DineroTotal * 0.1;
     save = DineroTotal * 0.1;
 
-    cout << "How would you like to use our app?\n(1) In a perzonalized way\n(2) With our suggestion\n";
+    cout << "\nHow would you like to use our app?\n(1) In a perzonalized way\n(2) With our suggestion\n";
     cin >> decision;
     switch (decision) {
         case '1':
@@ -54,5 +56,9 @@ int main() {
     }
     return 0;
 }
+
+
+
+
 
 
